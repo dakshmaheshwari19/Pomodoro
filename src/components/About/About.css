@@ -1,0 +1,29 @@
+.instructions{
+    position: absolute;
+    top: 59%;
+    left: 48%;
+    width: 87%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem; 
+}
+.openInfo{
+    position: absolute;
+    right: 3%;
+    top:7%;
+    cursor: pointer;
+
+}
+.openInfo:hover{
+    color: aquamarine;
+}
+.desc{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem; 
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}

@@ -1,0 +1,64 @@
+.mainContact{
+    width: 39%;
+    height: 45%;
+    background-color: rgb(25, 229, 161);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 1rem;
+    color: white;
+}
+.backHome{
+    position: absolute;
+    left: 3%;
+    top:1%;
+    cursor: pointer;
+
+}
+.backHome:hover{
+    color: aquamarine;
+}
+.contactDesc{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+.iconSection{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 20%;
+    justify-content: space-around;
+    cursor: pointer;
+
+    
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa-linkedin {
+    background: #ffffff;
+    color: rgb(25, 229, 161);
+  }
+  .fa-github {
+    background: #ffffff;
+    color: rgb(25, 229, 161);
+  }
+  .fa-instagram {
+    background: #ffffff;
+    color: rgb(25, 229, 161);
+  }
+  .fa-google {
+    background: #ffffff;
+    color: rgb(25, 229, 161);
+  }
+  .fa:hover{
+    color: aquamarine;
+  }

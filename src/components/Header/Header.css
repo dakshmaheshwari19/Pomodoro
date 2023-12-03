@@ -1,0 +1,88 @@
+.headerTitle{
+    position: absolute;
+    font-size: 3.9rem;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.headerDesc{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+.headingHR{
+    border: 1.4px solid rgb(37, 226, 163);
+    position: absolute;
+    top: 5.5%;
+    width: 97%;
+    left: 1.55%;
+}
+.contactButton{
+    width: 7.3rem;
+    height: 2.5rem;
+    background-color: rgb(25, 229, 161);
+    display: flex;
+    position: absolute;
+    top: 3.4%;
+    right: 2%;
+    transform: translate(-50%, -50%); 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.contactButton:active{
+    width: 7.5rem;
+    height: 2.7rem;
+    right: 1.75%;
+    top: 3.25%;
+}
+.aboutButton{
+    width: 8.7rem;
+    height: 2.5rem;
+    background-color: rgb(25, 229, 161);
+    display: flex;
+    position: absolute;
+    top: 3.4%;
+    right: 8.9%;
+    transform: translate(-50%, -50%); 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.aboutButton:active{
+    width: 8.9rem;
+    height: 2.7rem;
+    right: 8.75%;
+    top: 3.25%;
+}
+.homeButton{
+    width: 5rem;
+    height: 2.5rem;
+    background-color: rgb(25, 229, 161);
+    display: flex;
+    position: absolute;
+    top: 3.4%;
+    right: 19.4%;
+    transform: translate(-50%, -50%); 
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: .4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.homeButton:active{
+    width: 5.2rem;
+    height: 2.7rem;
+    right: 19.25%;
+    top: 3.25%;
+}
