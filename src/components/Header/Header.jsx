@@ -9,9 +9,10 @@ export const Header = () => {
     }
   return (
     <>
-    <Link to='/contact'>
-    <div className="contactButton" onClick={()=>{playClick()}}>
-        Contact Us
+    <div className="headerNav">
+    <Link to='/'>
+    <div className="homeButton" onClick={()=>{playClick()}}>
+        Home
     </div>
     </Link>
     <Link to='/about'>
@@ -19,11 +20,12 @@ export const Header = () => {
         Instructions
     </div>
     </Link>
-    <Link to='/'>
-    <div className="homeButton" onClick={()=>{playClick()}}>
-        Home
+    <Link to='/contact'>
+    <div className="contactButton" onClick={()=>{playClick()}}>
+        Contact Us
     </div>
     </Link>
+    </div>
     <hr className='headingHR'/>
     <div className="headerTitle">
         POMODORO TIMER
