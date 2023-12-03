@@ -67,7 +67,7 @@ export const Timer = () => {
                 else {
                     setSeconds(seconds - 1);
                 }
-            }, 10);
+            }, 1000);
 
             return () => {
                 clearInterval(timer);

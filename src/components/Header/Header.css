@@ -7,7 +7,7 @@
 }
 .headerDesc{
     position: absolute;
-    font-size: 1.5rem;
+    font-size: 1rem;
     top: 19%;
     left: 50%;
     transform: translate(-50%, -50%); 
@@ -71,7 +71,7 @@
     display: flex;
     position: absolute;
     top: 3.4%;
-    right: 19.4%;
+    right: 19.7%;
     transform: translate(-50%, -50%); 
     align-items: center;
     justify-content: center;
@@ -83,6 +83,6 @@
 .homeButton:active{
     width: 5.2rem;
     height: 2.7rem;
-    right: 19.25%;
+    right: 19.55%;
     top: 3.25%;
 }
