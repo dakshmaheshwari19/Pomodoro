@@ -2,28 +2,41 @@
     position: absolute;
     justify-content: space-around;
     width: 22%;
-    top: .7%;
+    top: 1%;
     right: 3%;
     display: flex;
+}
+.headingMain{
+    position: absolute;
+    justify-content: space-around;
+    width: 16%;
+    top: .7%;
+    left: 4%;
+    display: flex;
+}
+.titleHead{
+    font-size: 2.9rem;
+    font-weight: bold;
+    
 }
 .headerTitle{
     position: absolute;
     font-size: 3.9rem;
-    top: 12%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
 .headerDesc{
     position: absolute;
-    font-size: 1rem;
-    top: 19%;
+    font-size: 1.2rem;
+    top: 21%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
 .headingHR{
     border: 1.4px solid rgb(37, 226, 163);
     position: absolute;
-    top: 5.5%;
+    top: 5.8%;
     width: 97%;
     left: 1.55%;
 }
