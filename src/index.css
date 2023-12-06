@@ -10,3 +10,363 @@ a{
 a:active{
   color: aquamarine;
 }
+
+@media (max-width:1500px) and (min-width:1200px){
+    
+  .headerDesc{
+      font-size: 1.6rem;
+  }
+  .headerNav{
+      width: 30%;
+  }
+  .headingMain{
+      width: 22%;
+      top: .7%;
+      left: 7%;
+  }
+  .headingMain svg{
+      width:45px;
+      height:45px;
+  }
+
+   .boxTitle{
+    font-size: 2.5rem;
+   }
+  .time{
+    font-size: 8rem;
+}
+.contactDesc{
+  font-size: 1.7rem;
+
+}
+.timerBox{
+  width: 50%;
+
+}
+.anotherTimer{
+  width: 14%;
+  height: 10%;
+  left: 83%;
+}
+.anotherTimer2{
+  width: 14%;
+  height: 10%;
+  left: 83%;
+}
+
+}
+
+
+
+@media (max-width:1200px) and (min-width:900px){
+    
+  .headerDesc{
+      font-size: 1.2rem;
+  }
+  .headerNav{
+      width: 35%;
+  }
+  .headingMain{
+      width: 27%;
+      top: .7%;
+      left: 10%;
+  }
+  .boxTitle{
+    font-size: 3rem;
+  }
+  .timerBox{
+    width: 50%;
+}
+.headerTitle{
+  font-size: 3.6rem;
+
+}
+  .time{
+    font-size: 8rem;
+}
+.contactDesc{
+  font-size: 1.3rem;
+
+}
+.anotherTimer{
+  width: 14%;
+  height: 10%;
+  left: 85%;
+}
+.anotherTimer2{
+  width: 14%;
+  height: 10%;
+  left: 85%;
+}
+
+}
+
+
+@media (max-width:900px) and (min-width:550px){
+    
+  .headerDesc{
+      font-size: 1rem;
+  }
+  .headerNav{
+      width: 47%;
+      right: 2%;
+      justify-content: right;
+      align-items: end;
+      gap: 5px;
+      
+      }
+  .contactButton{
+    width: 5.5rem;
+    font-size: .8rem;
+  }
+  .homeButton{
+  width: 3.8rem;
+  font-size: .8rem;
+  }
+  .aboutButton{
+  width: 6rem;
+  font-size: .8rem;
+  }
+  .headingMain{
+      width: 45%;
+      top: .7%;
+      left: 2%;
+  }
+  .boxTitle{
+    font-size: 2.7rem;
+  }
+  .timerBox{
+    width: 80%;
+}
+.headerTitle{
+  font-size: 3.5rem;
+  width: 100%;
+  text-align: center;
+
+}
+  .time{
+    font-size: 8rem;
+}
+.contactDesc{
+  font-size: 2rem;
+
+}
+.anotherTimer{
+  width: 20%;
+  left: 21%;
+  top: 80%;
+}
+.anotherTimer2{
+  width: 20%;
+  left: 44%;
+  top: 80%;
+
+}
+.start{
+width: 30%;
+}
+.restartIcon{
+left: 70%;
+}
+
+
+}
+
+
+
+@media (max-width:550px) and (min-width:450px){
+    
+  .headerDesc{
+font-size: .8rem;
+  }
+  .headerNav{
+      width: 47%;
+      right: .5%;
+      justify-content: right;
+      align-items: end;
+      top: .8%;
+      gap: 3px;
+      
+      }
+      .headingHR{
+        border: 1.4px solid rgb(37, 226, 163);
+        position: absolute;
+        top: 4.3%;
+        width: 97%;
+        left: 1.55%;
+    }
+  .contactButton{
+    width: 3.8rem;
+    font-size: .6rem;
+    height: 1.8rem;
+  }
+  .homeButton{
+    height: 1.8rem;
+    width: 3rem;
+    font-size: .6rem;
+  }
+  .aboutButton{
+    height: 1.8rem;
+  width: 4.2rem;
+  font-size: .6rem;
+  }
+  .headingMain{
+      width: 45%;
+      top: .7%;
+      left: 2%;
+  }
+  .headingMain svg{
+      width: 25px;
+      height: 25px;
+  }
+  .titleHead{
+    font-size: 1.7rem;
+  }
+  .boxTitle{
+    font-size: 2rem;
+  }
+  .timerBox{
+    width: 90%;
+}
+.headerTitle{
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+
+}
+  .time{
+    font-size: 5rem;
+}
+.contactDesc{
+  font-size: 1.5rem;
+
+}
+.anotherTimer{
+  width: 22%;
+  left: 17%;
+  top: 77.7%;
+  height: 8%;
+
+}
+.anotherTimer2{
+  width: 22%;
+  height: 8%;
+  left: 42%;
+  top: 77.7%;
+
+}
+.anotherTime{
+  font-size: 1.2rem;
+}
+.start{
+width: 30%;
+}
+.restartIcon{
+left: 72%;
+}
+.instructions{
+  font-size: .75rem; 
+}
+.desc{
+  font-size: .8rem;
+}
+
+}
+@media (max-width:450px){
+    
+  .headerDesc{
+    display: none;
+  }
+  .headerNav{
+      width: 47%;
+      right: .5%;
+      justify-content: right;
+      align-items: end;
+      top: .8%;
+      gap: 3px;
+      
+      }
+      .headingHR{
+        border: 1.4px solid rgb(37, 226, 163);
+        position: absolute;
+        top: 4.3%;
+        width: 97%;
+        left: 1.55%;
+    }
+  .contactButton{
+    width: 3.8rem;
+    font-size: .6rem;
+    height: 1.8rem;
+  }
+  .homeButton{
+    height: 1.8rem;
+    width: 3rem;
+    font-size: .6rem;
+  }
+  .aboutButton{
+    height: 1.8rem;
+  width: 4.2rem;
+  font-size: .6rem;
+  }
+  .headingMain{
+      width: 45%;
+      top: .7%;
+      left: 2%;
+  }
+  .headingMain svg{
+      width: 25px;
+      height: 25px;
+  }
+  .titleHead{
+    font-size: 1.5rem;
+  }
+  .boxTitle{
+    font-size: 2rem;
+  }
+  .timerBox{
+    width: 90%;
+}
+.headerTitle{
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+
+}
+  .time{
+    font-size: 5rem;
+}
+.contactDesc{
+  font-size: 1.5rem;
+
+}
+.anotherTimer{
+  width: 22%;
+  left: 17%;
+  top: 77.7%;
+  height: 8%;
+
+}
+.anotherTimer2{
+  width: 22%;
+  height: 8%;
+  left: 42%;
+  top: 77.7%;
+
+}
+.anotherTime{
+  font-size: 1.2rem;
+}
+.start{
+width: 30%;
+}
+.restartIcon{
+left: 72%;
+}
+.instructions{
+  font-size: .75rem; 
+}
+.desc{
+  font-size: .8rem;
+}
+
+}

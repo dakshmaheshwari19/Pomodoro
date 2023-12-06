@@ -1,14 +1,15 @@
 .headerNav{
     position: absolute;
     justify-content: space-around;
-    width: 22%;
+    width: 23%;
     top: 1%;
     right: 3%;
     display: flex;
 }
 .headingMain{
     position: absolute;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    gap: 10px;
     width: 16%;
     top: .7%;
     left: 4%;
@@ -29,6 +30,8 @@
 .headerDesc{
     position: absolute;
     font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
     top: 21%;
     left: 50%;
     transform: translate(-50%, -50%); 
@@ -36,7 +39,7 @@
 .headingHR{
     border: 1.4px solid rgb(37, 226, 163);
     position: absolute;
-    top: 5.8%;
+    top: 6.4%;
     width: 97%;
     left: 1.55%;
 }
@@ -95,3 +98,4 @@
     right: 19.55%;
     top: 3.25%;
 }
+

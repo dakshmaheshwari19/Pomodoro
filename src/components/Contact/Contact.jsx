@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export const Contact = () => {
     return (
         <>
-            <div className="mainContact">
+            <div className="timerBox">
                 <Link to='/'>
                 <div className="backHome">
                     <span style={{ fontSize: '70px' }}>&#8592;</span>

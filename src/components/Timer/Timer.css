@@ -11,6 +11,8 @@
 }
 .boxTitle{
     position: absolute;
+    width: 70%;
+    text-align: center;
     font-size: 2.8rem;
     top: 15%;
     left: 50%;

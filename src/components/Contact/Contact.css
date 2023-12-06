@@ -1,14 +1,4 @@
-.mainContact{
-    width: 39%;
-    height: 45%;
-    background-color: rgb(25, 229, 161);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    border-radius: 1rem;
-    color: white;
-}
+
 .backHome{
     position: absolute;
     left: 3%;
@@ -24,6 +14,7 @@
     position: absolute;
     top: 35%;
     left: 10%;
+    text-align: center;
 }
 .iconSection{
     position: absolute;
