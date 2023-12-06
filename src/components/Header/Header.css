@@ -57,10 +57,11 @@
 
 }
 .contactButton:active{
-    width: 7.5rem;
-    height: 2.7rem;
-    right: 1.75%;
-    top: 3.25%;
+    color: aquamarine;
+
+}
+.contactButton:hover{
+    box-shadow: 0px 0px 10px 0px rgb(25, 229, 161);
 }
 .aboutButton{
     width: 8.7rem;
@@ -75,10 +76,12 @@
     cursor: pointer;
 }
 .aboutButton:active{
-    width: 8.9rem;
-    height: 2.7rem;
-    right: 8.75%;
-    top: 3.25%;
+    color: aquamarine;
+
+}
+.aboutButton:hover{
+    box-shadow: 0px 0px 10px 0px rgb(25, 229, 161);
+
 }
 .homeButton{
     width: 5rem;
@@ -93,9 +96,10 @@
     cursor: pointer;
 }
 .homeButton:active{
-    width: 5.2rem;
-    height: 2.7rem;
-    right: 19.55%;
-    top: 3.25%;
+color: aquamarine;
+
+}
+.homeButton:hover{
+    box-shadow: 0px 0px 10px 0px rgb(25, 229, 161);
 }
 
